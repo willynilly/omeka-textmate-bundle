@@ -4,11 +4,7 @@
 <dict>
 	<key>name</key>
 	<string>Omeka</string>
-	<key>ordering</key>
-	<array>
-		<string>7E8B4744-0E84-4B9B-B359-E6937CF37450</string>
-	</array>
 	<key>uuid</key>
-	<string>339C010C-643D-457C-A2BB-CF3014533BF6</string>
+	<string>A8CD1E27-0CD6-475A-B71D-931B6EFB6C4D</string>
 </dict>
 </plist>

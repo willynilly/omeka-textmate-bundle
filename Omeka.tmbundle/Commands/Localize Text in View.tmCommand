@@ -7,7 +7,18 @@
 	<key>command</key>
 	<string>#!/usr/bin/ruby
 
-print "&lt;?php echo __('" + ENV['TM_SELECTED_TEXT'] + "'); ?&gt;"</string>
+s = ENV['TM_SELECTED_TEXT']
+if s != nil
+	if s[0,1] == '"' and s[-1,1] == '"' and s.count('"') == 2
+		ss = s
+	elsif s[0,1] == "'" and s[-1,1] == "'" and s.count("'")
+		ss = s
+	else
+		ss = s.gsub(/(["])/, '\"')
+		ss = '"' + ss + '"'
+	end
+	print '&lt;?php echo __(' + ss + '); ?&gt;'
+end</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
@@ -17,6 +28,6 @@ print "&lt;?php echo __('" + ENV['TM_SELECTED_TEXT'] + "'); ?&gt;"</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>uuid</key>
-	<string>7E8B4744-0E84-4B9B-B359-E6937CF37450</string>
+	<string>1219505D-96D9-4009-B86C-D202E2858364</string>
 </dict>
 </plist>
