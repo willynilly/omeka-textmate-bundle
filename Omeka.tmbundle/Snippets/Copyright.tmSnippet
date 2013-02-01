@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * $0
+ * 
+ * @copyright Copyright 2007-2013 Roy Rosenzweig Center for History and New Media
+ * @license http://www.gnu.org/licenses/gpl-3.0.txt GNU GPLv3
+ */</string>
+	<key>name</key>
+	<string>Copyright</string>
+	<key>tabTrigger</key>
+	<string>cpr</string>
+	<key>uuid</key>
+	<string>B0D8306A-EFA1-4F87-843F-71C444D89C1B</string>
+</dict>
+</plist>
